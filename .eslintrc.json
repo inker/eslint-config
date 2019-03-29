@@ -48,8 +48,6 @@
         {"allowTernary": true}
       ],
 
-      "camelcase": [ 2, { "properties": "always" } ],
-      "comma-spacing": [ 2, { "before": false, "after": true } ],
       "comma-style": [ 2, "last" ],
       "computed-property-spacing": [ 2, "never" ],
       "object-curly-spacing": [ 2, "always" ],
