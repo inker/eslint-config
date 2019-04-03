@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-npm i -D @calipsa/eslint-config --save-dev
+npm i -D @calipsa/eslint-config
 ```
 
 ## Usage
