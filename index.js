@@ -39,13 +39,6 @@ module.exports = {
         ignoreRegExpLiterals: true,
         ignoreUrls: true,
       }],
-    'comma-dangle': [2, {
-      arrays: 'always-multiline',
-      objects: 'always-multiline',
-      imports: 'always-multiline',
-      exports: 'always-multiline',
-      functions: 'always-multiline',
-    }],
   },
   globals: {
     __DEV__: true,
