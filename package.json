@@ -1,0 +1,33 @@
+{
+  "name": "@calipsa/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js --no-eslintrc index.js",
+    "publish": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calipsa/ESLint-setup.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Artur Kondas, Anton Veselev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calipsa/ESLint-setup/issues"
+  },
+  "homepage": "https://github.com/calipsa/ESLint-setup#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "np": "^4.0.2"
+  }
+}
