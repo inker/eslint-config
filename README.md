@@ -1,8 +1,6 @@
 # ESLint shareable config for Calipsa
 
-[![NPM version][npm-img]][npm-url]
-[![Build Status][travis-img]][travis-url]
-[![Greenkeeper Status][greenkeeper-img]][greenkeeper-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
 
 ## Installation
 
@@ -22,5 +20,10 @@ Add `"extends": "@calipsa/eslint-config"` to your `.eslintrc`.
 
 It is recommended that no other settings apart from the ones above be changed. Any changes are up for discussion.
 
-[npm-img]: https://badge.fury.io/js/@calipsa/eslint-config.svg
-[npm-url]: https://www.npmjs.com/package/@calipsa/eslint-config
+[npm-url]: https://npmjs.org/package/@calipsa/eslint-config
+[downloads-image]: http://img.shields.io/npm/dm/@calipsa/eslint-config.svg
+[npm-image]: http://img.shields.io/npm/v/@calipsa/eslint-config.svg
+[david-dm-url]:https://david-dm.org/inker/@calipsa/eslint-config
+[david-dm-image]:https://david-dm.org/inker/@calipsa/eslint-config.svg
+[david-dm-dev-url]:https://david-dm.org/inker/@calipsa/eslint-config#info=devDependencies
+[david-dm-dev-image]:https://david-dm.org/inker/@calipsa/eslint-config/dev-status.svg
