@@ -1,7 +1,7 @@
 {
   "name": "@calipsa/eslint-config",
   "version": "1.0.4",
-  "description": "",
+  "description": "Shareable eslint config for Calipsa",
   "main": "index.js",
   "scripts": {
     "test": "eslint -c index.js --no-eslintrc index.js",
