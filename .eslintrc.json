@@ -47,7 +47,6 @@
         {"allowTernary": true}
       ],
 
-      "comma-style": [ 2, "last" ],
       "space-before-blocks": [ 2, "always" ],
       "arrow-parens": 0,
       "consistent-return": 0,
@@ -59,7 +58,6 @@
         "ignoreRegExpLiterals": true,
         "ignoreUrls": true
       }],
-      "semi": [1, "always"],
       "comma-dangle": [2, {
         "arrays": "always-multiline",
         "objects": "always-multiline",
