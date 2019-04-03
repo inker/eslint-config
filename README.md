@@ -16,9 +16,9 @@ Add `"extends": "@calipsa/eslint-config"` to your `.eslintrc`.
 
 ## Notes
 
-`comma-style` - is comma last
-`comma-dangle` - trailing commas are required
-`semi`- semicolons are required
+`comma-style` - is comma last  
+`comma-dangle` - trailing commas are required  
+`semi`- semicolons are required  
 
 It is recommended that no other settings apart from the ones above be changed. Any changes are up for discussion.
 
