@@ -9,6 +9,7 @@ module.exports = {
     jest: true,
   },
   rules: {
+    "implicit-arrow-linebreak": 0,
     'no-confusing-arrow': 0,
     'no-nested-ternary': 0,
     'no-restricted-syntax': [
