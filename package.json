@@ -24,10 +24,10 @@
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.17.2"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "np": "^4.0.2"
+    "np": "^5.0.1"
   }
 }
