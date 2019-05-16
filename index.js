@@ -24,12 +24,12 @@ module.exports = {
     'no-continue': 0,
     'no-await-in-loop': 0,
     'no-duplicate-imports': 2,
-    'no-unused-expressions': [
-      2,
-      { allowTernary: true },
-    ],
+    'no-multiple-empty-lines': [2, {
+      max: 1,
+      maxBOF: 0,
+      maxEOF: 1,
+    }],
 
-    'space-before-blocks': [2, 'always'],
     'arrow-parens': 0,
     'consistent-return': 0,
     'function-paren-newline': 1,
@@ -37,6 +37,9 @@ module.exports = {
     'max-len': [
       2, {
         code: 80,
+        tabWidth: 2,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
         ignoreRegExpLiterals: true,
         ignoreUrls: true,
       }],
