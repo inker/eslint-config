@@ -1,5 +1,9 @@
 module.exports = {
-  extends: 'airbnb-base',
+  extends: [
+    'airbnb-base',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+  ],
   parser: 'babel-eslint',
   env: {
     node: true,
@@ -34,15 +38,25 @@ module.exports = {
     'consistent-return': 0,
     'function-paren-newline': 1,
 
-    'max-len': [
-      2, {
-        code: 80,
-        tabWidth: 2,
-        ignoreStrings: true,
-        ignoreTemplateLiterals: true,
-        ignoreRegExpLiterals: true,
-        ignoreUrls: true,
-      }],
+    'max-len': [2, {
+      code: 80,
+      tabWidth: 2,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+      ignoreRegExpLiterals: true,
+      ignoreUrls: true,
+    }],
+
+    'import/order': [2, {
+      groups: [
+        'builtin',
+        'external',
+        'internal',
+        'parent',
+        'sibling',
+        'index',
+      ],
+    }],
   },
   globals: {
     __DEV__: true,
