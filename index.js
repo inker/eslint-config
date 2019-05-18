@@ -41,8 +41,6 @@ module.exports = {
     'max-len': [2, {
       code: 80,
       tabWidth: 2,
-      ignoreStrings: true,
-      ignoreTemplateLiterals: true,
       ignoreRegExpLiterals: true,
       ignoreUrls: true,
     }],
