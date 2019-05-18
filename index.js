@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
     'airbnb-base',
-    'plugin:import/errors',
-    'plugin:import/warnings',
+    // 'plugin:import/errors',
+    // 'plugin:import/warnings',
   ],
   parser: 'babel-eslint',
   env: {
@@ -45,6 +45,17 @@ module.exports = {
       ignoreTemplateLiterals: true,
       ignoreRegExpLiterals: true,
       ignoreUrls: true,
+    }],
+
+    'prefer-destructuring': [2, {
+      VariableDeclarator: {
+        array: false,
+        object: true,
+      },
+      AssignmentExpression: {
+        array: false,
+        object: false,
+      },
     }],
 
     'import/order': [2, {
