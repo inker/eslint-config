@@ -31,7 +31,7 @@ module.exports = {
     'no-multiple-empty-lines': [2, {
       max: 1,
       maxBOF: 0,
-      maxEOF: 1,
+      maxEOF: 0,
     }],
 
     'arrow-parens': 0,
