@@ -39,7 +39,7 @@ module.exports = {
     'function-paren-newline': 1,
 
     'max-len': [2, {
-      code: 80,
+      code: 100,
       tabWidth: 2,
       ignoreRegExpLiterals: true,
       ignoreUrls: true,
