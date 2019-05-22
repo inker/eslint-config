@@ -4,6 +4,9 @@ module.exports = {
     // 'plugin:import/errors',
     // 'plugin:import/warnings',
   ],
+  plugins: [
+    // 'import',
+  ],
   parser: 'babel-eslint',
   env: {
     node: true,
@@ -27,7 +30,6 @@ module.exports = {
     'no-mixed-operators': 0,
     'no-continue': 0,
     'no-await-in-loop': 0,
-    'no-duplicate-imports': 2,
     'no-multiple-empty-lines': [2, {
       max: 1,
       maxBOF: 0,
@@ -36,7 +38,6 @@ module.exports = {
 
     'arrow-parens': 0,
     'consistent-return': 0,
-    'function-paren-newline': 1,
 
     'max-len': [2, {
       code: 100,
