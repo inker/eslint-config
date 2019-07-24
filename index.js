@@ -25,6 +25,9 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
+    'no-underscore-dangle': [2, {
+      allowAfterThis: true,
+    }],
     'no-plusplus': 0,
     'no-bitwise': 0,
     'no-mixed-operators': 0,
