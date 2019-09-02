@@ -72,6 +72,16 @@ module.exports = {
         prev: 'function',
         next: '*',
       },
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'class',
+      },
+      {
+        blankLine: 'always',
+        prev: 'class',
+        next: '*',
+      },
     ],
 
     'import/order': [2, {
