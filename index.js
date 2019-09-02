@@ -60,6 +60,30 @@ module.exports = {
       },
     }],
 
+    'padding-line-between-statements': [
+      2,
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'function',
+      },
+      {
+        blankLine: 'always',
+        prev: 'function',
+        next: '*',
+      },
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'class',
+      },
+      {
+        blankLine: 'always',
+        prev: 'class',
+        next: '*',
+      },
+    ],
+
     'import/order': [2, {
       groups: [
         'builtin',
