@@ -16,6 +16,7 @@ module.exports = {
     jest: true,
   },
   rules: {
+    semi: [2, 'never'],
     'implicit-arrow-linebreak': 0,
     'no-confusing-arrow': 0,
     'no-nested-ternary': 0,
@@ -99,4 +100,4 @@ module.exports = {
     __DEV__: true,
     __SSR__: true,
   },
-};
+}
