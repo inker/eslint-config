@@ -4,10 +4,13 @@ module.exports = {
     // 'plugin:import/errors',
     // 'plugin:import/warnings',
   ],
+
   plugins: [
     // 'import',
   ],
+
   parser: 'babel-eslint',
+
   env: {
     node: true,
     es6: true,
@@ -15,6 +18,7 @@ module.exports = {
     browser: true,
     jest: true,
   },
+
   rules: {
     semi: [2, 'never'],
     curly: [2, 'all'],
@@ -99,6 +103,7 @@ module.exports = {
       ],
     }],
   },
+
   globals: {
     __DEV__: true,
     __SSR__: true,
