@@ -17,6 +17,8 @@ module.exports = {
   },
   rules: {
     semi: [2, 'never'],
+    curly: [2, 'all'],
+    'brace-style': [2, '1tbs'],
     'implicit-arrow-linebreak': 0,
     'no-confusing-arrow': 0,
     'no-nested-ternary': 0,
