@@ -42,6 +42,7 @@ module.exports = {
       maxEOF: 0,
     }],
 
+    'func-names': 0,
     'arrow-parens': 0,
     'consistent-return': 0,
 
