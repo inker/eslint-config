@@ -73,6 +73,10 @@ module.exports = {
       },
     }],
 
+    'lines-between-class-members': [2, 'always', {
+      exceptAfterSingleLine: true,
+    }],
+
     'padding-line-between-statements': [
       2,
       {
