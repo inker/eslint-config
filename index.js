@@ -45,6 +45,11 @@ module.exports = {
       maxBOF: 0,
       maxEOF: 0,
     }],
+    'no-console': [2, {
+      allow: [
+        'error',
+      ],
+    }],
 
     'func-names': 0,
     'arrow-parens': 0,
