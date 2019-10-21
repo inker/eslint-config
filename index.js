@@ -110,6 +110,7 @@ module.exports = {
         'sibling',
         'index',
       ],
+      'newlines-between': 'always-and-inside-groups',
     }],
   },
 
