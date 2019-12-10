@@ -112,6 +112,12 @@ module.exports = {
       ],
       'newlines-between': 'always-and-inside-groups',
     }],
+
+    'import/extensions': [2, 'always', {
+      js: 'never',
+      ts: 'never',
+      vue: 'never',
+    }],
   },
 
   globals: {
