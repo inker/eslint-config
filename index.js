@@ -7,6 +7,7 @@ module.exports = {
 
   plugins: [
     // 'import',
+    'lodash',
   ],
 
   parser: 'babel-eslint',
@@ -118,6 +119,8 @@ module.exports = {
       ts: 'never',
       vue: 'never',
     }],
+
+    'lodash/import-scope': [2, 'member'],
   },
 
   globals: {
