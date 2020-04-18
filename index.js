@@ -121,6 +121,8 @@ module.exports = {
     }],
 
     'lodash/import-scope': [2, 'member'],
+    'lodash/chaining': [2, 'never'],
+    'lodash/preferred-alias': 2,
   },
 
   globals: {
