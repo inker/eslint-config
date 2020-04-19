@@ -7,6 +7,7 @@ module.exports = {
 
   plugins: [
     // 'import',
+    'unicorn',
     'lodash',
   ],
 
@@ -101,6 +102,29 @@ module.exports = {
         next: '*',
       },
     ],
+
+    'unicorn/consistent-function-scoping': 2,
+    'unicorn/error-message': 2,
+    'unicorn/import-index': 2,
+    'unicorn/no-abusive-eslint-disable': 2,
+    'unicorn/no-array-instanceof': 2,
+    'unicorn/no-for-loop': 2,
+    'unicorn/no-new-buffer': 2,
+    'unicorn/no-zero-fractions': 2,
+    'unicorn/prefer-flat-map': 2,
+    'unicorn/prefer-includes': 2,
+    'unicorn/prefer-modern-dom-apis': 2,
+    'unicorn/prefer-negative-index': 2,
+    'unicorn/prefer-starts-ends-with': 2,
+    'unicorn/prefer-string-slice': 2,
+    'unicorn/prefer-text-content': 2,
+    'unicorn/prefer-trim-start-end': 2,
+    'unicorn/prefer-type-error': 2,
+    'unicorn/throw-new-error': 2,
+    // 'unicorn/filename-case': 2,
+    // 'unicorn/catch-error-name': [2, {
+    //   name: 'err',
+    // }],
 
     'import/order': [2, {
       groups: [
