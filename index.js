@@ -9,6 +9,7 @@ module.exports = {
     // 'import',
     'unicorn',
     'lodash',
+    'eslint-comments',
   ],
 
   parser: 'babel-eslint',
@@ -147,6 +148,14 @@ module.exports = {
     'lodash/import-scope': [2, 'member'],
     'lodash/chaining': [2, 'never'],
     'lodash/preferred-alias': 2,
+
+    'eslint-comments/no-unused-disable': 2,
+    'eslint-comments/no-use': [2, {
+      allow: [
+        'eslint-disable',
+        'eslint-disable-next-line',
+      ],
+    }],
   },
 
   globals: {
