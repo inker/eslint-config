@@ -54,6 +54,9 @@ module.exports = {
       ],
     }],
 
+    'object-shorthand': [2, 'always', {
+      avoidQuotes: false,
+    }],
     'func-names': 0,
     'arrow-parens': 0,
     'consistent-return': 0,
