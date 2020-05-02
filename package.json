@@ -1,7 +1,7 @@
 {
-  "name": "@calipsa/eslint-config",
-  "version": "1.15.0",
-  "description": "Shareable eslint config for Calipsa",
+  "name": "@inker/eslint-config",
+  "version": "1.0.0",
+  "description": "inker's eslint config",
   "main": "index.js",
   "scripts": {
     "test": "eslint -c index.js --no-eslintrc ./**/*.js",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/calipsa/eslint-config.git"
+    "url": "git+https://github.com/inker/eslint-config.git"
   },
   "keywords": [
     "eslint",
     "config"
   ],
-  "author": "Artur Kondas, Anton Veselev",
+  "author": "Anton Veselev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/calipsa/eslint-config.git/issues"
+    "url": "https://github.com/inker/eslint-config/issues"
   },
-  "homepage": "https://github.com/calipsa/eslint-config.git#readme",
+  "homepage": "https://github.com/inker/eslint-config#readme",
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint-config-airbnb-base": "^14.1.0",

@@ -130,9 +130,9 @@ module.exports = {
     'unicorn/prefer-type-error': 2,
     'unicorn/throw-new-error': 2,
     // 'unicorn/filename-case': 2,
-    // 'unicorn/catch-error-name': [2, {
-    //   name: 'err',
-    // }],
+    'unicorn/catch-error-name': [2, {
+      name: 'err',
+    }],
 
     'import/order': [2, {
       groups: [
@@ -148,7 +148,10 @@ module.exports = {
 
     'import/extensions': [2, 'always', {
       js: 'never',
+      mjs: 'never',
       ts: 'never',
+      jsx: 'never',
+      tsx: 'never',
       vue: 'never',
     }],
 
