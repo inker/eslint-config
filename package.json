@@ -27,10 +27,10 @@
     "eslint-plugin-eslint-comments": "^3.1.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-lodash": "^7.1.0",
-    "eslint-plugin-unicorn": "^18.0.1"
+    "eslint-plugin-unicorn": "^19.0.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "np": "^6.2.2"
+    "np": "^6.2.3"
   }
 }

@@ -116,6 +116,7 @@ module.exports = {
     'unicorn/prefer-includes': 2,
     'unicorn/prefer-modern-dom-apis': 2,
     'unicorn/prefer-negative-index': 2,
+    'unicorn/prefer-number-properties': 2,
     'unicorn/prefer-starts-ends-with': 2,
     'unicorn/prefer-string-slice': 2,
     'unicorn/prefer-text-content': 2,
