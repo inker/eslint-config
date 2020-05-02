@@ -129,9 +129,15 @@ module.exports = {
     'unicorn/prefer-trim-start-end': 2,
     'unicorn/prefer-type-error': 2,
     'unicorn/throw-new-error': 2,
-    // 'unicorn/filename-case': 2,
     'unicorn/catch-error-name': [2, {
       name: 'err',
+    }],
+    'unicorn/filename-case': [2, {
+      cases: {
+        camelCase: true,
+        pascalCase: true,
+      },
+      ignore: '\.test\.[jt]s$',
     }],
 
     'import/order': [2, {
