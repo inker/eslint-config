@@ -4,7 +4,7 @@
   "description": "Shareable eslint config for Calipsa",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c index.js --no-eslintrc index.js",
+    "test": "eslint -c index.js --no-eslintrc ./**/*.js",
     "release": "np"
   },
   "repository": {
@@ -27,7 +27,8 @@
     "eslint-plugin-eslint-comments": "^3.1.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-lodash": "^7.1.0",
-    "eslint-plugin-unicorn": "^19.0.1"
+    "eslint-plugin-unicorn": "^19.0.1",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
