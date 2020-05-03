@@ -25,6 +25,7 @@ module.exports = {
 
   rules: {
     semi: [2, 'never'],
+    'prefer-exponentiation-operator': 2,
     curly: [2, 'all'],
     'brace-style': [2, '1tbs'],
     'implicit-arrow-linebreak': 0,
@@ -105,6 +106,7 @@ module.exports = {
       },
     ],
 
+    'unicorn/better-regex': 2,
     'unicorn/consistent-function-scoping': 2,
     'unicorn/error-message': 2,
     'unicorn/import-index': 2,
@@ -113,11 +115,14 @@ module.exports = {
     'unicorn/no-for-loop': 2,
     'unicorn/no-new-buffer': 2,
     'unicorn/no-zero-fractions': 2,
+    'unicorn/prefer-dataset': 2,
+    'unicorn/prefer-event-key': 2,
     'unicorn/prefer-flat-map': 2,
     'unicorn/prefer-includes': 2,
     'unicorn/prefer-modern-dom-apis': 2,
     'unicorn/prefer-negative-index': 2,
     'unicorn/prefer-number-properties': 2,
+    // 'unicorn/prefer-replace-all': 2,
     'unicorn/prefer-starts-ends-with': 2,
     'unicorn/prefer-string-slice': 2,
     'unicorn/prefer-text-content': 2,
