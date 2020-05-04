@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint -c index.js --no-eslintrc ./**/*.js",
-    "release": "np"
+    "release": "np --no-cleanup"
   },
   "repository": {
     "type": "git",
