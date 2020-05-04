@@ -137,7 +137,9 @@ module.exports = {
         camelCase: true,
         pascalCase: true,
       },
-      ignore: '\.test\.[jt]s$',
+      ignore: [
+        '\\.test\\.[jt]s$',
+      ],
     }],
 
     'import/order': [2, {
