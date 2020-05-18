@@ -1,6 +1,6 @@
 {
   "name": "@calipsa/eslint-config",
-  "version": "1.16.0",
+  "version": "1.16.1",
   "description": "Shareable eslint config for Calipsa",
   "main": "index.js",
   "scripts": {
