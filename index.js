@@ -107,9 +107,15 @@ module.exports = {
     ],
 
     'unicorn/better-regex': 2,
+    // 'unicorn/catch-error-name': [2, {
+    //   name: 'err',
+    // }],
     'unicorn/consistent-function-scoping': 2,
+    'unicorn/custom-error-definition': 2,
     'unicorn/error-message': 2,
+    // 'unicorn/filename-case': 2,
     'unicorn/import-index': 2,
+    'unicorn/new-for-builtins': 2,
     'unicorn/no-abusive-eslint-disable': 2,
     'unicorn/no-array-instanceof': 2,
     'unicorn/no-for-loop': 2,
@@ -129,10 +135,6 @@ module.exports = {
     'unicorn/prefer-trim-start-end': 2,
     'unicorn/prefer-type-error': 2,
     'unicorn/throw-new-error': 2,
-    // 'unicorn/filename-case': 2,
-    // 'unicorn/catch-error-name': [2, {
-    //   name: 'err',
-    // }],
 
     'import/order': [2, {
       groups: [
