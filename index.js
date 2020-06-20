@@ -128,6 +128,7 @@ module.exports = {
     'unicorn/prefer-modern-dom-apis': 2,
     'unicorn/prefer-negative-index': 2,
     'unicorn/prefer-number-properties': 2,
+    'unicorn/prefer-optional-catch-binding': 2,
     // 'unicorn/prefer-replace-all': 2,
     'unicorn/prefer-starts-ends-with': 2,
     'unicorn/prefer-string-slice': 2,
