@@ -60,13 +60,6 @@ module.exports = {
     'arrow-parens': 0,
     'consistent-return': 0,
 
-    'max-len': [2, {
-      code: 100,
-      tabWidth: 2,
-      ignoreRegExpLiterals: true,
-      ignoreUrls: true,
-    }],
-
     'prefer-destructuring': [2, {
       VariableDeclarator: {
         array: false,
@@ -107,9 +100,9 @@ module.exports = {
     ],
 
     'unicorn/better-regex': 2,
-    // 'unicorn/catch-error-name': [2, {
-    //   name: 'err',
-    // }],
+    'unicorn/catch-error-name': [2, {
+      name: 'err',
+    }],
     'unicorn/consistent-function-scoping': 2,
     'unicorn/custom-error-definition': 2,
     'unicorn/error-message': 2,
