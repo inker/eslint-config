@@ -60,13 +60,6 @@ module.exports = {
     'arrow-parens': 0,
     'consistent-return': 0,
 
-    'max-len': [2, {
-      code: 100,
-      tabWidth: 2,
-      ignoreRegExpLiterals: true,
-      ignoreUrls: true,
-    }],
-
     'prefer-destructuring': [2, {
       VariableDeclarator: {
         array: false,
@@ -128,7 +121,9 @@ module.exports = {
     'unicorn/no-array-instanceof': 2,
     'unicorn/no-for-loop': 2,
     'unicorn/no-new-buffer': 2,
+    'unicorn/no-object-as-default-parameter': 2,
     'unicorn/no-zero-fractions': 2,
+    'unicorn/prefer-array-find': 2,
     'unicorn/prefer-dataset': 2,
     'unicorn/prefer-event-key': 2,
     'unicorn/prefer-flat-map': 2,

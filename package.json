@@ -23,15 +23,15 @@
   "homepage": "https://github.com/inker/eslint-config#readme",
   "dependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-lodash": "^7.1.0",
-    "eslint-plugin-unicorn": "^20.1.0",
+    "eslint-plugin-unicorn": "^21.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
   },
   "devDependencies": {
-    "eslint": "^7.1.0",
-    "np": "^6.2.3"
+    "eslint": "^7.8.0",
+    "np": "^6.5.0"
   }
 }
