@@ -23,15 +23,15 @@
   "homepage": "https://github.com/calipsa/eslint-config.git#readme",
   "dependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-lodash": "^7.1.0",
-    "eslint-plugin-unicorn": "^21.0.0",
+    "eslint-plugin-unicorn": "^23.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
   },
   "devDependencies": {
-    "eslint": "^7.5.0",
-    "np": "^6.3.2"
+    "eslint": "^7.13.0",
+    "np": "^7.0.0"
   }
 }

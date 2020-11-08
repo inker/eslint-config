@@ -31,6 +31,10 @@ module.exports = {
     'implicit-arrow-linebreak': 0,
     'no-confusing-arrow': 0,
     'no-nested-ternary': 0,
+    'no-extra-parens': [2, 'all', {
+      enforceForArrowConditionals: false,
+      enforceForNewInMemberExpressions: false,
+    }],
     'no-restricted-syntax': [
       2,
       'ForInStatement',
@@ -127,6 +131,7 @@ module.exports = {
     // 'unicorn/prefer-replace-all': 2,
     'unicorn/prefer-starts-ends-with': 2,
     'unicorn/prefer-string-slice': 2,
+    'unicorn/prefer-ternary': 2,
     'unicorn/prefer-text-content': 2,
     'unicorn/prefer-trim-start-end': 2,
     'unicorn/prefer-type-error': 2,
