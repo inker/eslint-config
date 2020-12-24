@@ -121,6 +121,7 @@ module.exports = {
     'unicorn/no-zero-fractions': 2,
     'unicorn/prefer-array-find': 2,
     'unicorn/prefer-dataset': 2,
+    'unicorn/prefer-date-now': 2,
     'unicorn/prefer-event-key': 2,
     'unicorn/prefer-flat-map': 2,
     'unicorn/prefer-includes': 2,
