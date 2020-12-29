@@ -26,6 +26,7 @@ module.exports = {
   rules: {
     semi: [2, 'never'],
     'prefer-exponentiation-operator': 2,
+    'max-statements-per-line': 2,
     curly: [2, 'all'],
     'brace-style': [2, '1tbs'],
     'implicit-arrow-linebreak': 0,
