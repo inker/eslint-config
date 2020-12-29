@@ -13,7 +13,11 @@ module.exports = {
     'eslint-comments',
   ],
 
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
+
+  parserOptions: {
+    requireConfigFile: false,
+  },
 
   env: {
     node: true,

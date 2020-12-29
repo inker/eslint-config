@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/calipsa/eslint-config.git#readme",
   "dependencies": {
-    "babel-eslint": "^10.1.0",
+    "@babel/core": "^7.12.10",
+    "@babel/eslint-parser": "^7.12.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.22.1",
