@@ -120,6 +120,7 @@ module.exports = {
     'unicorn/no-new-buffer': 2,
     'unicorn/no-object-as-default-parameter': 2,
     'unicorn/no-zero-fractions': 2,
+    'unicorn/number-literal-case': 2,
     'unicorn/prefer-array-find': 2,
     'unicorn/prefer-array-flat-map': 2,
     'unicorn/prefer-array-some': 2,
