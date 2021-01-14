@@ -27,11 +27,11 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-lodash": "^7.1.0",
-    "eslint-plugin-unicorn": "^25.0.1",
+    "eslint-plugin-unicorn": "^26.0.1",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
   },
   "devDependencies": {
-    "eslint": "^7.16.0",
-    "np": "^7.1.0"
+    "eslint": "^7.17.0",
+    "np": "^7.2.0"
   }
 }
