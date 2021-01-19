@@ -50,7 +50,6 @@ module.exports = {
     'no-bitwise': 0,
     'no-mixed-operators': 0,
     'no-continue': 0,
-    'no-await-in-loop': 0,
     'no-multiple-empty-lines': [2, {
       max: 1,
       maxBOF: 0,
