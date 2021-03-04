@@ -8,6 +8,7 @@ module.exports = {
   plugins: [
     'unicorn',
     // 'import',
+    'promise',
     'lodash',
     'you-dont-need-lodash-underscore',
     'eslint-comments',
@@ -165,6 +166,12 @@ module.exports = {
       ts: 'never',
       vue: 'never',
     }],
+
+    'promise/catch-or-return': 2,
+    'promise/no-new-statics': 2,
+    'promise/no-return-wrap': 2,
+    'promise/param-names': 2,
+    'promise/valid-params': 2,
 
     'lodash/import-scope': [2, 'member'],
     'lodash/chaining': [2, 'never'],
