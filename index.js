@@ -14,7 +14,11 @@ module.exports = {
     'eslint-comments',
   ],
 
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
+
+  parserOptions: {
+    requireConfigFile: false,
+  },
 
   env: {
     node: true,
@@ -118,7 +122,9 @@ module.exports = {
     'unicorn/new-for-builtins': 2,
     'unicorn/no-abusive-eslint-disable': 2,
     'unicorn/no-array-for-each': 2,
+    'unicorn/no-array-method-this-argument': 2,
     'unicorn/no-array-push-push': 2,
+    'unicorn/no-document-cookie': 2,
     'unicorn/no-for-loop': 2,
     'unicorn/no-instanceof-array': 2,
     'unicorn/no-new-array': 2,
@@ -142,6 +148,7 @@ module.exports = {
     'unicorn/prefer-negative-index': 2,
     'unicorn/prefer-number-properties': 2,
     'unicorn/prefer-optional-catch-binding': 2,
+    'unicorn/prefer-prototype-methods': 2,
     'unicorn/prefer-regexp-test': 2,
     // 'unicorn/prefer-string-replace-all': 2,
     'unicorn/prefer-string-slice': 2,
@@ -149,6 +156,8 @@ module.exports = {
     'unicorn/prefer-string-trim-start-end': 2,
     'unicorn/prefer-ternary': 2,
     'unicorn/prefer-type-error': 2,
+    'unicorn/require-array-join-separator': 2,
+    'unicorn/require-number-to-fixed-digits-argument': 2,
     'unicorn/throw-new-error': 2,
 
     'import/order': [2, {
