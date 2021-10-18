@@ -163,6 +163,14 @@ module.exports = {
     'unicorn/prefer-type-error': 2,
     'unicorn/require-array-join-separator': 2,
     'unicorn/require-number-to-fixed-digits-argument': 2,
+    'unicorn/template-indent': [2, {
+      selectors: [
+        'TemplateLiteral',
+      ],
+      comments: [
+        'sql',
+      ],
+    }],
     'unicorn/throw-new-error': 2,
 
     'import/order': [2, {
