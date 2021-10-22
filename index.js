@@ -8,12 +8,17 @@ module.exports = {
   plugins: [
     'unicorn',
     // 'import',
+    'promise',
     'lodash',
     'you-dont-need-lodash-underscore',
     'eslint-comments',
   ],
 
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
+
+  parserOptions: {
+    requireConfigFile: false,
+  },
 
   env: {
     node: true,
@@ -125,16 +130,24 @@ module.exports = {
     'unicorn/new-for-builtins': 2,
     'unicorn/no-abusive-eslint-disable': 2,
     'unicorn/no-array-for-each': 2,
+    'unicorn/no-array-method-this-argument': 2,
     'unicorn/no-array-push-push': 2,
+    'unicorn/no-document-cookie': 2,
     'unicorn/no-for-loop': 2,
     'unicorn/no-instanceof-array': 2,
+    'unicorn/no-invalid-remove-event-listener': 2,
     'unicorn/no-new-array': 2,
     'unicorn/no-new-buffer': 2,
     'unicorn/no-object-as-default-parameter': 2,
+    'unicorn/no-static-only-class': 2,
     'unicorn/no-this-assignment': 2,
+    'unicorn/no-useless-fallback-in-spread': 2,
+    'unicorn/no-useless-length-check': 2,
+    'unicorn/no-useless-spread': 2,
     'unicorn/no-zero-fractions': 2,
     'unicorn/number-literal-case': 2,
     'unicorn/prefer-array-find': 2,
+    'unicorn/prefer-array-flat': 2,
     'unicorn/prefer-array-flat-map': 2,
     'unicorn/prefer-array-index-of': 2,
     'unicorn/prefer-array-some': 2,
@@ -146,7 +159,9 @@ module.exports = {
     'unicorn/prefer-modern-dom-apis': 2,
     'unicorn/prefer-negative-index': 2,
     'unicorn/prefer-number-properties': 2,
+    'unicorn/prefer-object-from-entries': 2,
     'unicorn/prefer-optional-catch-binding': 2,
+    'unicorn/prefer-prototype-methods': 2,
     'unicorn/prefer-regexp-test': 2,
     // 'unicorn/prefer-string-replace-all': 2,
     'unicorn/prefer-string-slice': 2,
@@ -154,6 +169,16 @@ module.exports = {
     'unicorn/prefer-string-trim-start-end': 2,
     'unicorn/prefer-ternary': 2,
     'unicorn/prefer-type-error': 2,
+    'unicorn/require-array-join-separator': 2,
+    'unicorn/require-number-to-fixed-digits-argument': 2,
+    'unicorn/template-indent': [2, {
+      selectors: [
+        'TemplateLiteral',
+      ],
+      comments: [
+        'sql',
+      ],
+    }],
     'unicorn/throw-new-error': 2,
 
     'import/order': [2, {
@@ -176,6 +201,12 @@ module.exports = {
       tsx: 'never',
       vue: 'never',
     }],
+
+    'promise/catch-or-return': 2,
+    'promise/no-new-statics': 2,
+    'promise/no-return-wrap': 2,
+    'promise/param-names': 2,
+    'promise/valid-params': 2,
 
     'lodash/import-scope': [2, 'member'],
     'lodash/chaining': [2, 'never'],
