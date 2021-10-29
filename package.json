@@ -21,7 +21,7 @@
     "url": "https://github.com/inker/eslint-config/issues"
   },
   "homepage": "https://github.com/inker/eslint-config#readme",
-  "dependencies": {
+  "peerDependencies": {
     "@babel/eslint-parser": "^7.15.8",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -32,7 +32,7 @@
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
   },
   "devDependencies": {
-    "eslint": "^8.0.1",
+    "eslint": "^8.1.0",
     "np": "^7.5.0"
   }
 }

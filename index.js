@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'airbnb-base',
+    'eslint-config-airbnb-base',
     // 'plugin:import/errors',
     // 'plugin:import/warnings',
   ],
@@ -51,6 +51,7 @@ module.exports = {
     'no-underscore-dangle': [2, {
       allowAfterThis: true,
     }],
+    'no-loss-of-precision': 2,
     'no-plusplus': 0,
     'no-bitwise': 0,
     'no-mixed-operators': 0,
@@ -163,7 +164,7 @@ module.exports = {
     'unicorn/prefer-optional-catch-binding': 2,
     'unicorn/prefer-prototype-methods': 2,
     'unicorn/prefer-regexp-test': 2,
-    // 'unicorn/prefer-string-replace-all': 2,
+    'unicorn/prefer-string-replace-all': 2,
     'unicorn/prefer-string-slice': 2,
     'unicorn/prefer-string-starts-ends-with': 2,
     'unicorn/prefer-string-trim-start-end': 2,
