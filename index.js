@@ -6,7 +6,9 @@ module.exports = {
   ],
 
   plugins: [
+    'sonarjs',
     'unicorn',
+    'inker',
     // 'import',
     'promise',
     'lodash',
@@ -35,6 +37,7 @@ module.exports = {
     'max-params': [2, 4],
     curly: [2, 'all'],
     'brace-style': [2, '1tbs'],
+    'multiline-ternary': [2, 'always-multiline'],
     'implicit-arrow-linebreak': 0,
     'no-confusing-arrow': 0,
     'no-nested-ternary': 0,
@@ -108,7 +111,21 @@ module.exports = {
         prev: 'class',
         next: '*',
       },
+      {
+        blankLine: 'always',
+        prev: 'cjs-export',
+        next: '*',
+      },
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'cjs-export',
+      },
     ],
+
+    'sonarjs/no-inverted-boolean-check': 2,
+    'sonarjs/prefer-immediate-return': 2,
+    'sonarjs/prefer-while': 2,
 
     'unicorn/better-regex': 2,
     'unicorn/catch-error-name': [2, {
@@ -133,7 +150,9 @@ module.exports = {
     'unicorn/no-array-for-each': 2,
     'unicorn/no-array-method-this-argument': 2,
     'unicorn/no-array-push-push': 2,
+    'unicorn/no-await-expression-member': 2,
     'unicorn/no-document-cookie': 2,
+    'unicorn/no-empty-file': 2,
     'unicorn/no-for-loop': 2,
     'unicorn/no-instanceof-array': 2,
     'unicorn/no-invalid-remove-event-listener': 2,
@@ -141,10 +160,13 @@ module.exports = {
     'unicorn/no-new-buffer': 2,
     'unicorn/no-object-as-default-parameter': 2,
     'unicorn/no-static-only-class': 2,
+    'unicorn/no-thenable': 2,
     'unicorn/no-this-assignment': 2,
     'unicorn/no-useless-fallback-in-spread': 2,
     'unicorn/no-useless-length-check': 2,
+    'unicorn/no-useless-promise-resolve-reject': 2,
     'unicorn/no-useless-spread': 2,
+    'unicorn/no-useless-switch-case': 2,
     'unicorn/no-zero-fractions': 2,
     'unicorn/number-literal-case': 2,
     'unicorn/prefer-array-find': 2,
@@ -152,12 +174,17 @@ module.exports = {
     'unicorn/prefer-array-flat-map': 2,
     'unicorn/prefer-array-index-of': 2,
     'unicorn/prefer-array-some': 2,
+    'unicorn/prefer-code-point': 2,
     'unicorn/prefer-date-now': 2,
     'unicorn/prefer-dom-node-dataset': 2,
     'unicorn/prefer-dom-node-text-content': 2,
+    'unicorn/prefer-export-from': 2,
     'unicorn/prefer-includes': 2,
     'unicorn/prefer-keyboard-event-key': 2,
+    'unicorn/prefer-math-trunc': 2,
     'unicorn/prefer-modern-dom-apis': 2,
+    'unicorn/prefer-modern-math-apis': 2,
+    'unicorn/prefer-native-coercion-functions': 2,
     'unicorn/prefer-negative-index': 2,
     'unicorn/prefer-number-properties': 2,
     'unicorn/prefer-object-from-entries': 2,
@@ -181,6 +208,11 @@ module.exports = {
       ],
     }],
     'unicorn/throw-new-error': 2,
+
+    'inker/no-object-assign-this': 2,
+    'object-property-newline': 0,
+    'inker/no-same-line-for-elements': 2,
+    'inker/single-import-per-line': 2,
 
     'import/order': [2, {
       groups: [

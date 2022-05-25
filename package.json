@@ -22,17 +22,19 @@
   },
   "homepage": "https://github.com/inker/eslint-config#readme",
   "peerDependencies": {
-    "@babel/eslint-parser": "^7.15.8",
-    "eslint-config-airbnb-base": "^14.2.1",
+    "@babel/eslint-parser": "^7.18.2",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-lodash": "^7.3.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-unicorn": "^37.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-inker": "^2.0.0",
+    "eslint-plugin-lodash": "^7.4.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-unicorn": "^42.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
   },
   "devDependencies": {
-    "eslint": "^8.1.0",
-    "np": "^7.5.0"
+    "eslint": "^8.16.0",
+    "np": "^7.6.1"
   }
 }
