@@ -131,7 +131,7 @@ module.exports = {
     'unicorn/catch-error-name': [2, {
       name: 'err',
     }],
-    // 'unicorn/consistent-destructuring': 2,
+    'unicorn/consistent-destructuring': 2,
     'unicorn/consistent-function-scoping': 2,
     'unicorn/custom-error-definition': 2,
     'unicorn/error-message': 2,
@@ -221,6 +221,7 @@ module.exports = {
     'object-property-newline': 0,
     'inker/no-same-line-for-elements': 2,
     'inker/no-this-brackets': 2,
+    'inker/no-true-as-default': 2,
     'inker/single-import-per-line': 2,
 
     'import/order': [2, {
