@@ -123,6 +123,14 @@ module.exports = {
       },
     ],
 
+    // Only for ordering members
+    'sort-imports': [
+      2,
+      {
+        ignoreDeclarationSort: true,
+      },
+    ],
+
     'sonarjs/no-inverted-boolean-check': 2,
     'sonarjs/prefer-immediate-return': 2,
     'sonarjs/prefer-while': 2,
