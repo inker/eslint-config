@@ -164,6 +164,7 @@ module.exports = {
     'unicorn/prefer-switch': 0,
     'unicorn/prefer-top-level-await': 0,
     'unicorn/prevent-abbreviations': 0,
+    'unicorn/relative-url-style': 0,
 
     'inker/no-object-assign-this': 2,
     'object-property-newline': 0,
