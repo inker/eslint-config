@@ -138,6 +138,7 @@ module.exports = {
     'unicorn/catch-error-name': [2, {
       name: 'err',
     }],
+    'unicorn/consistent-destructuring': 2,
     'unicorn/custom-error-definition': 2,
     'unicorn/empty-brace-spaces': 0,
     'unicorn/explicit-length-check': 0,
