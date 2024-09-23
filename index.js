@@ -155,6 +155,7 @@ module.exports = {
     'unicorn/explicit-length-check': 0,
     'unicorn/filename-case': 0,
     'unicorn/import-style': 0,
+    'unicorn/no-anonymous-default-export': 0,
     'unicorn/no-array-callback-reference': 0,
     'unicorn/no-array-reduce': [
       2,
