@@ -62,11 +62,6 @@ module.exports = {
       'ForInStatement',
       'LabeledStatement',
       'WithStatement',
-      {
-        selector:
-          ':matches(PropertyDefinition, MethodDefinition)[accessibility='private']',
-        message: 'Use #private instead.',
-      },
     ],
     'no-underscore-dangle': [2, {
       allowAfterThis: true,
@@ -277,4 +272,4 @@ module.exports = {
     __DEV__: true,
     __SSR__: true,
   },
-}
+};
