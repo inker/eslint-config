@@ -1,6 +1,6 @@
 {
   "name": "@inker/eslint-config",
-  "version": "11.1.0",
+  "version": "11.2.0",
   "description": "inker's eslint config",
   "main": "index.js",
   "scripts": {
