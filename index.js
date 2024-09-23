@@ -32,24 +32,41 @@ module.exports = {
   },
 
   rules: {
-    semi: [2, 'never'],
-    'prefer-exponentiation-operator': 2,
+    semi: [2, 'always'],
+    camelcase: [
+      2,
+      {
+        allow: [],
+      },
+    ],
     'max-statements-per-line': 2,
-    'max-params': [2, 4],
+    'max-params': 2,
     curly: [2, 'all'],
     'brace-style': [2, '1tbs'],
     'implicit-arrow-linebreak': 0,
+    indent: 0,
     'no-confusing-arrow': 0,
     'no-nested-ternary': 0,
     'no-extra-parens': [2, 'all', {
       enforceForArrowConditionals: false,
       enforceForNewInMemberExpressions: false,
     }],
+    'no-param-reassign': [
+      2,
+      {
+        props: false,
+      },
+    ],
     'no-restricted-syntax': [
       2,
       'ForInStatement',
       'LabeledStatement',
       'WithStatement',
+      {
+        selector:
+          ':matches(PropertyDefinition, MethodDefinition)[accessibility='private']',
+        message: 'Use #private instead.',
+      },
     ],
     'no-underscore-dangle': [2, {
       allowAfterThis: true,
@@ -69,21 +86,20 @@ module.exports = {
         'error',
       ],
     }],
+    'no-unused-private-class-members': 2,
+    'no-unused-vars': [2, { args: 'none' }],
+    'no-useless-escape': 2,
+    'object-curly-newline': 0,
+    'operator-linebreak': 0,
 
     'func-names': 0,
     'arrow-parens': 0,
     'consistent-return': 0,
 
     'prefer-destructuring': [2, {
-      VariableDeclarator: {
         array: false,
         object: true,
-      },
-      AssignmentExpression: {
-        array: false,
-        object: false,
-      },
-    }],
+      }],
 
     'lines-between-class-members': [2, 'always', {
       exceptAfterSingleLine: true,
@@ -158,7 +174,6 @@ module.exports = {
     'unicorn/numeric-separators-style': 0,
     'unicorn/prefer-add-event-listener': 0, // TODO: enable
     'unicorn/prefer-module': 0,
-    'unicorn/prefer-node-protocol': 0, // TODO: enable
     'unicorn/prefer-query-selector': 0,
     'unicorn/prefer-set-has': 0, // TODO: enable
     'unicorn/prefer-spread': 0, // TODO: enable
@@ -166,6 +181,7 @@ module.exports = {
     'unicorn/prefer-top-level-await': 0,
     'unicorn/prevent-abbreviations': 0,
     'unicorn/relative-url-style': 0,
+    'unicorn/switch-case-braces': 0,
 
     'inker/no-object-assign-this': 2,
     'object-property-newline': 0,
@@ -181,7 +197,9 @@ module.exports = {
         'sibling',
         'index',
       ],
-      'newlines-between': 'always-and-inside-groups',
+      'newlines-between': 'always',
+      distinctGroup: false,
+      warnOnUnassignedImports: true,
     }],
 
     'import/extensions': [2, 'always', {
@@ -197,6 +215,7 @@ module.exports = {
     'promise/no-new-statics': 2,
     'promise/no-return-wrap': 2,
     'promise/param-names': 2,
+    'promise/prefer-await-to-then': 2,
     'promise/valid-params': 2,
 
     'lodash/import-scope': [2, 'member'],
