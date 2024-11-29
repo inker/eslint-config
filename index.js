@@ -235,6 +235,7 @@ module.exports = {
     'you-dont-need-lodash-underscore/every': 2,
     'you-dont-need-lodash-underscore/filter': 2,
     'you-dont-need-lodash-underscore/includes': 2,
+    'you-dont-need-lodash-underscore/is-nil': 2,
     'you-dont-need-lodash-underscore/map': 2,
     // 'you-dont-need-lodash-underscore/pluck': 2,
     'you-dont-need-lodash-underscore/reduce': 2,
